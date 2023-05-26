@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alertas</title>
+</head>
+
+<body>
+    <h2>alerta con html5 y javascrip</h2>
+
+    <input type="button" value="mensaje" onclick="mensaje()">
+    <hr>
+    <p>precionar el checbox</p>
+    <input type="checkbox" name="preciona me" onclick="preciona()">
+    <hr>
+    <p>escribir con javascrip</p>
+    <input type="button" value="escribe un mensaje" onclick="document.write('Atte:hurrem')">
+    <hr>
+    <p>vinculos con alertas</p>
+    <a href="javascript:alert('todavia no ay nada');">haz clic</a>
+    <hr>
+    <a href="javascript:window.print()">imprimir pantalla</a>
+    <hr>
+    <p>alerta con opciones de aceptar y cancelar</p>
+    <a href="#" onclick="salir()">salir de la practica</a>
+    <!--funcion boton-->
+    <script>
+        function mensaje() {
+            alert("alerta de este mensaje");
+        }
+    </script>
+    <!--fucncion de checkbox-->
+    <script>
+        function preciona() {
+            alert("precionaste el checkbox");
+        }
+    </script>
+    <!--Funcion Escribir-->
+    <!--Texto
+    <script>
+        function Escribir(){
+            document.write("holissssss <3");
+        }
+    </script>
+-->
+    <script>
+        function salir() {
+            var salir = confirm("¿salir?")
+            if (salir) {
+                alert("gracias por visitar mi practica")
+                window.location = "https://www.tiktok.com/es/";
+            }
+            else {
+                alert("gracias por seguir en mi pagina")
+            }
+        }
+    </script>
+</body>
+
+</html>

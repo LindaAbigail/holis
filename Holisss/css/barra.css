@@ -1,0 +1,41 @@
+#{
+    margin: 0;
+    padding: 0;
+}
+.total{
+    width:100%;
+    background-color:white;
+    color:whitesmoke;
+    display:block;
+    float:right;
+    padding: 0%;
+}
+.barrra{
+    width:100;
+    color: belge;
+    float:right;
+}
+.barra ul{
+    margin: 0;
+    padding:0%;
+    list-style:none;
+    padding-right: 20px;
+    text-align:center;
+}
+.barra ul li{
+    display:inline-block;
+    line-height:80px;
+    margin-left:20px;
+    text-align:center;
+}
+.barra al il a{
+    text-decoration:none;
+    color:inherit;
+    font-family:Gillsans,Gillsans nt,calibri,irebuchet 5,sans-serif;
+    text-siose:7rem;
+    max-width:1200px;
+    display:block;
+}
+.barra ul li a:hover{
+    color:black;
+}

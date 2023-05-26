@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>suma de numeros con javascript</title>
+</head>
+<body>
+    <h3>suma de numeros enteros</h3>
+    <p>introduce 2 cantidades enteras en cada uno de las cajas de texto</p>
+    <form>
+        <input type="text" name="numero 1" id="numero1"> + <input type="text" name="numero 2" id="numero2">
+        <input type="button" value="sumar" onclick="suma()">
+        <input type="reset" value="borrar">
+    </form>
+    <script>
+        function suma(){
+            resultado = parseInt(numero1.value)+parseInt(numero2.value);
+            alert("el resultado de la suma es:"+ resultado);
+        }
+    </script>
+</body>
+</html>
